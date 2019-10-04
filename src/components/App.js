@@ -86,23 +86,7 @@ export default class App extends Component {
               <Item as="a">PAYMENT</Item>
               <Item as="a">KNOW YOUR TAX COLLECTOR</Item>
               <Item as="a">REPORT</Item>
-              {/* <Item>
-              <Dropdown text='More'  className='link item'>
-                
-                <Dropdown.Menu>
-                  <Dropdown.Item as="a">
-                     Edit Profile
-                  </Dropdown.Item>
-                  <Dropdown.Item as="a">
-                    Choose Language
-                  </Dropdown.Item>
-                  <Dropdown.Item as="a">
-                    Account Settings
-                  </Dropdown.Item>
-                </Dropdown.Menu>
-              </Dropdown>
-              </Item> */}
-
+              
             </Accordion>
             
           </Sidebar>
