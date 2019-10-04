@@ -52,11 +52,11 @@ export default class FloorDetails extends Component {
     });
   };
   removeFloor = (e, index) => {
-    console.log("index: " + index);
+   
     let filteredfloorList = this.state.floorList.filter(
       (item, i) => i !== index
     );
-    console.log(filteredfloorList);
+   
     this.setState({
       floorList: filteredfloorList
     });
@@ -64,24 +64,11 @@ export default class FloorDetails extends Component {
 
 handleChange=(e,index)=>{
   const {name,value}=e.target;
-  console.log(name+": "+value);
-  console.log("handleChange index: "+index);
-  this.state.floorList.map((obj,i)=>{
-    console.log(i);
-      if (i===index) {
-        this.setState({
-          floorList:[...this.state.floorList,this.state.floorList[index][name]:value]
-         
-          
-        })
-      }
-    
-  })
+ 
 
 }
 
   render() {
-    console.log(this.state.floorList);
     const choice = [
       { key: "yes", value: "yes", text: "Yes" },
       { key: "No", value: "No", text: "No" }

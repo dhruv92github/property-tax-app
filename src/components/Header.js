@@ -6,8 +6,7 @@ import smartULB_brandPic from "../images/smartULB.png";
 import "../css/Header.css";
 
 const Header = ({ toggleSidebar, sidebarVisibility }) => {
-  // console.log(toggleSidebar);
-  // console.log(sidebarVisibility);
+ 
   return (
     <header className="container">
       <div className="header-items">

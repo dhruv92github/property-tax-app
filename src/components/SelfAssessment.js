@@ -23,7 +23,6 @@ export default class SelfAssessment extends Component {
   }
   render() {
     const { showModal  } = this.state;
-    console.log(JSON.stringify(this.props));
     return (
       <>
         <Modal size="mini" open={showModal} onClose={this.discardModal}>

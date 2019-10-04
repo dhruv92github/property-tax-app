@@ -9,17 +9,15 @@ export default class PersonalDetails extends Component {
   };
 
   handleChange = e => {
-    console.log(e.target);
     const { name, value } = e.target;
     this.props.handleChange("personalDetails", name, value);
   };
   handleDropdownChange = (e, { name, value }) => {
-    console.log(name + ": " + value);
+   
     this.props.handleChange("personalDetails", name, value);
   };
 
   render() {
-    console.log(this.props.data);
     const {
       ownerName,
       guardianName,

@@ -58,7 +58,6 @@ export default class SelfAssesForm extends Component {
     }
   };
   handleChange = (givenDetails, name, value) => {
-    console.log(givenDetails+" - "+name+": "+value);
     this.setState({
       [givenDetails]: {
         ...this.state[givenDetails],
@@ -67,13 +66,10 @@ export default class SelfAssesForm extends Component {
     });
   };
   changeStep = (e, step) => {
-    // console.log(step);
     this.setState({ step: step });
   };
   toggleAddress=(e)=>{
     const {checked}=e.target;
-    console.log("toggle address working")
-    console.log(checked);
     this.setState({
       personalDetails:{
         ...this.state.personalDetails,
@@ -83,7 +79,6 @@ export default class SelfAssesForm extends Component {
   }
 
   render() {
-    // console.log(this.props);
     const { step } = this.state;
 
     return (

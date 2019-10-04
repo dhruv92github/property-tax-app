@@ -18,7 +18,7 @@ export default class FloorDetailsForm extends Component {
         builtUpArea,
         from,
         to}=floorData;
-        console.log(NoOfForm)
+      
         return ( <Segment raised >
             <div className="form-div" style={{display:"flex",alignItems:"center",justifyContent:"space-around"}}>
                
