@@ -1,0 +1,77 @@
+.app{
+    font-size: 1em;
+}
+
+hr{
+    border:1px solid rgb(8, 121, 87);
+    margin:0;
+}
+
+
+.title.item {
+    padding: .92857143em 1.14285714em !important;
+  }
+  .sidebar .item i {
+    font-size: 24px;
+    margin-top: 0px !important;
+
+  }
+.ui.menu {
+    font-size: 1.2em;
+}
+
+
+.item.sub-menu{
+    font-size: 0.9em; 
+  }
+  .sub-items{
+    text-align: left;
+    
+    margin-left: 0px;
+  }
+
+/* aligning text of sidebar items to left */
+.ui.icon.menu .item {
+   
+    text-align: left;
+}
+.ui.left.pointing.dropdown.link.item{
+    padding-left:0;
+    padding-right:0;
+}
+.ui.menu .dropdown.item .menu{
+    background-color:rgb(114, 166, 108);
+    
+}
+
+
+/* sidebar's active sub-menu color */
+.ui.accordion .active.content{
+    background-color: rgb(114, 166, 108);
+}
+
+.ui.icon.menu .item.sub-menu {
+    padding-left: 30px;
+  
+}
+.ui.icon.menu .item.sub-menu:hover {
+    background-color: rgb(254, 254, 254);
+    color:green;
+ }
+
+ /* sidebar background  */
+ .ui.inverted.menu{
+background-color: green;
+ }
+
+/* for overfow of sidebar */
+ .ui.sidebar {
+    overflow: visible !important;
+}
+
+/* width of sidebar */
+.ui.thin.left.sidebar, .ui.thin.right.sidebar {
+    min-width: 20%;
+}
+
+    

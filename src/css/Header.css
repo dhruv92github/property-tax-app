@@ -1,0 +1,42 @@
+.header-items{
+font-size: 1.4em;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.left-header-items{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2px;
+}
+.menu-box{
+    /* border:1px solid red; */
+    cursor: pointer;
+    color:green;
+   
+   
+}
+img{
+    visibility: hidden;
+    cursor: pointer;
+    width:90px;
+    height:68px;
+}
+
+.sign-in{
+    padding: 2PX;
+}
+@media (max-width:992px){
+    .sign-in{
+        font-size: 12px;
+    }
+    .menu-box{
+        font-size: 12px;
+    }
+    img {
+        width: 70px;
+        height: 45px;
+    }
+}

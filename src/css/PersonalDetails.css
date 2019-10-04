@@ -1,0 +1,84 @@
+.personal-details{
+    width: 70%;
+    margin: auto;
+    padding: 5px;
+    /* display: flex;
+    justify-content: space-between; */
+    /* border: 1px solid red; */
+}
+.form-div{
+    min-width: 75%;
+    max-width: 85%;
+    margin: auto;
+    padding: 10px;
+    /* border: 1px solid black; */
+    /* display: flex;
+    justify-content: space-between; */
+    /* border: 1px solid red; */
+}
+.input-group{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 5px;
+    margin-bottom: 10px;
+}
+label{
+    /* border: 1px solid black; */
+    font-size: 1.2em;
+    text-align: left;
+    
+}
+.ui.form input:not([type]),
+ .ui.form input[type=date],
+  .ui.form input[type=datetime-local],
+   .ui.form input[type=email],
+    .ui.form input[type=file],
+     .ui.form input[type=number],
+      .ui.form input[type=password],
+       .ui.form input[type=search], 
+       .ui.form input[type=tel],
+        .ui.form input[type=text],
+         .ui.form input[type=time],
+          .ui.form input[type=url]{
+    border-radius: 1.5rem;
+}
+.ui.form input:not([type]):focus,
+ .ui.form input[type=date]:focus,
+  .ui.form input[type=datetime-local]:focus,
+   .ui.form input[type=email]:focus,
+    .ui.form input[type=file]:focus,
+     .ui.form input[type=number]:focus,
+      .ui.form input[type=password]:focus,
+       .ui.form input[type=search]:focus, 
+       .ui.form input[type=tel]:focus,
+        .ui.form input[type=text]:focus,
+         .ui.form input[type=time]:focus,
+          .ui.form input[type=url]:focus
+     {
+    border-radius: 1.5rem;
+}
+.ui.selection.dropdown{
+    border-radius: 1.5rem;
+    min-width: 12.6em;
+    /* width: 50%; */
+}
+.ui.selection.dropdown:focus{
+    border-radius: 1.5rem;
+    min-width: 12.6em;
+}
+.ui.selection.active.dropdown .menu {
+    border-bottom-left-radius: 1.5em;
+    border-bottom-right-radius: 1.5em;
+}
+.ui.basic.label{
+    border-top-left-radius: 1.5em;
+    border-bottom-left-radius: 1.5em;
+}
+.ui.labeled.input{
+    width: 180px;
+    /* border: 1px solid red; */
+}
+.ui.labeled.input:not([class*="corner labeled"]) .label:first-child+input {
+    width: 40%;
+}

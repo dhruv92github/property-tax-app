@@ -1,0 +1,29 @@
+.submit-buttons{
+    /* border: 1px solid blue; */
+    border-radius: 50%;
+    /* background-color: blue; */
+    width: 95%;
+    padding:0 8%;
+    display: flex;
+    justify-content: center;
+    align-self: center
+}
+.ui.button.btn-left{
+    color:white;
+    min-width: 100px;
+    text-align: center;
+    background-color: rgb(19, 129, 187);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+.ui.button.btn-right{
+    color:white;
+    min-width: 100px;
+    text-align: center;
+    background-color: rgb(19, 129, 187);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+
+}
